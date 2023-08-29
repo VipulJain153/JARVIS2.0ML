@@ -1,6 +1,6 @@
 import openai,datetime
 from nlp import speak
-openai.api_key = "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"
+openai.api_key = ""
 def ai(query):
     response = openai.Completion.create(
   model="text-davinci-003",
