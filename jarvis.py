@@ -8,7 +8,7 @@ pygame.display.set_caption('JARVIS')
 pygame.display.set_icon(pygame.image.load('icon.png'))
 clock = pygame.time.Clock()
 thread = threading.Thread(target=cv.run)
-kit = "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"
+kit = "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"
 if __name__ == "__main__":
     speak('Hello, I am Jarvis Sir, How can I Serve You.')
     while True:
